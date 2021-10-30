@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-family: Josefin Sans, Futura, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: aqua;
+}
+
+.section-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-wrapper-section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-section-1 {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  color: peachpuff;
+  text-shadow: 0.2rem 0.2rem 0.5rem plum;
+}
+
+.header-section-1-text {
+  font-size: 2rem;
+  color: chartreuse;
+  text-shadow: 0.1rem 0.1rem 0.2rem tomato;
+}
