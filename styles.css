@@ -24,6 +24,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: gainsboro;
 }
 
 .header-wrapper-section-1 {
@@ -37,11 +38,13 @@ html {
   font-size: 8rem;
   margin-bottom: 2rem;
   color: peachpuff;
-  text-shadow: 0.2rem 0.2rem 0.5rem plum;
+  text-shadow: 0.2rem 0.2rem 0.2rem plum;
+  font-weight: 700;
 }
 
 .header-section-1-text {
   font-size: 2rem;
-  color: chartreuse;
-  text-shadow: 0.1rem 0.1rem 0.2rem tomato;
+  color: papayawhip;
+  text-shadow: 0.1rem 0.1rem 0.2rem cornflowerblue;
+  font-weight: 300;
 }
