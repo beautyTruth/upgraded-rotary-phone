@@ -45,3 +45,22 @@ function addMe() {
 addMe();
 
 console.log(addMe());
+
+/* 
+Variable declarations:
+
+1- var
+
+2- let
+
+3- const
+
+*/
+
+// the naming conventions for these: 1) they must make sense 2) they must be understandable 3) they must be camelCase
+
+let age = 47;
+console.log(age);
+
+let firstName = "Phil";
+console.log(firstName);
