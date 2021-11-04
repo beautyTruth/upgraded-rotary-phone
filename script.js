@@ -243,4 +243,14 @@ Variable declarations:
 //   ? console.log("you got an A")
 //   : console.log("you got something other than an A");
 
-// the logical AND operator
+// the logical AND operator &&
+
+// let age = 25;
+
+// if (age >= 1 && age <= 12) {
+//   console.log("minor");
+// } else if (age >= 13 && age <= 19) {
+//   console.log("teenager");
+// } else {
+//   console.log("adult");
+// }
