@@ -243,7 +243,7 @@ Variable declarations:
 //   ? console.log("you got an A")
 //   : console.log("you got something other than an A");
 
-// the logical AND operator &&
+// the logical AND operator -- &&
 
 // let age = 25;
 
@@ -253,4 +253,17 @@ Variable declarations:
 //   console.log("teenager");
 // } else {
 //   console.log("adult");
+// }
+
+// the logical OR operator -- || -- in which one side of the pipes needs to be true
+
+// if (10 > 8 || 8 < 5) {
+//   console.log("success");
+// }
+
+// the logical NOT operator -- ! --
+
+// let temp = 22;
+// if (!(temp === 20)) {
+//   console.log("man it's still cold doe");
 // }
