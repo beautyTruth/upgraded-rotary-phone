@@ -267,3 +267,37 @@ Variable declarations:
 // if (!(temp === 20)) {
 //   console.log("man it's still cold doe");
 // }
+
+// array literal -- an array --  it is a collection of data
+
+// collections of
+
+// 1- songs
+// 2- posts
+// 3- comments
+// 4- numbers
+// 5- counts
+// 6- poems
+
+// it can be anything -- get it
+
+let numbers = [1, 2, 3, 4, 5];
+let colors = ["pink", "purple", "fuscia"];
+let mixed = ["peachpuff", 45, null, undefined, NaN, false];
+console.log(numbers);
+console.log(colors);
+console.log(mixed);
+
+// accesing a specific value of an index
+// console.log(colors[1]);
+// console.log(mixed[1]);
+// console.log(numbers[3]);
+
+// changing the value of an index in an array
+// numbers[4] = 25;
+// console.log(numbers);
+
+// adding an item to the end of an array
+
+mixed[mixed.length] = "editing";
+console.log(mixed);
