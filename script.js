@@ -185,3 +185,11 @@ Variable declarations:
 // console.log(undefined !== null);
 // console.log(false !== 0);
 // console.log(true !== 1);
+
+// _+_+_+_+_+_+_+_+_ conditionals _+_+_+_+_+_+_+_+_+_+_
+
+// the if statement -- checking for a single condition
+
+// the else statement -- checking for two conditions
+
+// else if statement -- checking for more than two conditions
