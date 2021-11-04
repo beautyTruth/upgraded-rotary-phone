@@ -99,7 +99,7 @@ Variable declarations:
 
 // finding the index
 
-let kitty = "Kitty the kittycat";
+// let kitty = "Kitty the kittycat";
 
 // console.log(kitty);
 // console.log(kitty[8]);
@@ -108,25 +108,56 @@ let kitty = "Kitty the kittycat";
 // console.log(kitty[kitty.length - 1]);
 
 // trim method
-let rock = "       lava     ";
-console.log(rock.trim());
+// let rock = "       lava     ";
+// console.log(rock.trim());
 
 // indexOf method
-console.log(kitty.indexOf("t"));
+// console.log(kitty.indexOf("t"));
 
 // charAt method
-console.log(kitty.charAt("4"));
+// console.log(kitty.charAt("4"));
 
 // slice method
-console.log(kitty.slice(4));
-console.log(kitty.slice(4, 10));
+// console.log(kitty.slice(4));
+// console.log(kitty.slice(4, 10));
 
 // split method
-console.log(kitty.split(" "));
+// console.log(kitty.split(" "));
 
 // includes method
-console.log(kitty.includes("@"));
-console.log(kitty.includes("i"));
+// console.log(kitty.includes("@"));
+// console.log(kitty.includes("i"));
 
 // replace method
-console.log(kitty.replace("the", "boop"));
+// console.log(kitty.replace("the", "boop"));
+
+// _*_*_*_*_*_*_comparison operators _*_*_*_*_*_*_*_*_*_*
+
+// greater than >
+// less than <
+// greater than or equal to >=
+// less than or equal to <=
+
+// the == equality operator (this is type coercive and is evaluating the actual value)
+
+// console.log(1 == 1);
+// console.log(1 == "1");
+// console.log("x" == "x");
+// console.log(true == true);
+// console.log(false == true);
+// console.log(0 == "");
+// console.log(undefined == null);
+// console.log(false == 0);
+// console.log(true == 1);
+
+// the === strict equality operator
+
+// console.log(1 === 1);
+// console.log(1 === "1");
+// console.log("x" === "x");
+// console.log(true === true);
+// console.log(false === true);
+// console.log(0 === "");
+// console.log(undefined === null);
+// console.log(false === 0);
+// console.log(true === 1);
