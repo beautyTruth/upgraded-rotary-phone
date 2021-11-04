@@ -281,12 +281,12 @@ Variable declarations:
 
 // it can be anything -- get it
 
-let numbers = [1, 2, 3, 4, 5];
-let colors = ["pink", "purple", "fuscia"];
-let mixed = ["peachpuff", 45, null, undefined, NaN, false];
-console.log(numbers);
-console.log(colors);
-console.log(mixed);
+// let numbers = [1, 2, 3, 4, 5];
+// let colors = ["pink", "purple", "fuscia"];
+// let mixed = ["peachpuff", 45, null, undefined, NaN, false];
+// console.log(numbers);
+// console.log(colors);
+// console.log(mixed);
 
 // accesing a specific value of an index
 // console.log(colors[1]);
@@ -299,5 +299,56 @@ console.log(mixed);
 
 // adding an item to the end of an array
 
-mixed[mixed.length] = "editing";
-console.log(mixed);
+// mixed[mixed.length] = "editing";
+// console.log(mixed);
+
+// ----the shift method -- removes from the start of the array
+
+// let movies = ["Interstellar", "Tommy Boy"];
+// console.log(movies);
+
+// movies.shift();
+// console.log(movies);
+
+// ----the unshift method -- adds to the beginning of the array
+
+// movies.unshift("The Revenant");
+// console.log(movies);
+
+// ----the pop method -- removes from the end of an array
+
+// movies.pop();
+// console.log(movies);
+
+// movies.push("Alien");
+// console.log(movies);
+
+let numbers = [1, 2, 3, 4, 54, 115, 789, 324];
+console.log(numbers);
+
+// slice method --- creates an array from the starting index to the ending index (but doesn't change the original array)
+
+// let num1 = numbers.slice(1, 4);
+// console.log(num1);
+
+// let num1 = numbers.slice(-1)
+// let num1 = numbers.slice(-2)
+// let num1 = numbers.slice(-4);
+// console.log(num1);
+
+// splice method --- removes, replaces or adds a specified number of items and changes the array
+
+// removing
+// let num2 = numbers.splice(0, 4);
+// console.log(num2);
+// console.log(numbers); // this array is now changed
+
+// removing and replacing
+// let num2 = numbers.splice(0, 2, 222, 333);
+// console.log(num2);
+// console.log(numbers); // this array is now changed
+
+// adding
+let num2 = numbers.splice(2, 0, 222, "The Dark Knight");
+console.log(num2);
+console.log(numbers); // this array is now changed
