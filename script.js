@@ -161,3 +161,27 @@ Variable declarations:
 // console.log(undefined === null);
 // console.log(false === 0);
 // console.log(true === 1);
+
+// the != non-equality operator
+
+// console.log(1 != 1);
+// console.log(1 != "1");
+// console.log("x" != "x");
+// console.log(true != true);
+// console.log(false != true);
+// console.log(0 != "");
+// console.log(undefined != null);
+// console.log(false != 0);
+// console.log(true != 1);
+
+// the !== strict non-equality operator
+
+// console.log(1 !== 1);
+// console.log(1 !== "1");
+// console.log("x" !== "x");
+// console.log(true !== true);
+// console.log(false !== true);
+// console.log(0 !== "");
+// console.log(undefined !== null);
+// console.log(false !== 0);
+// console.log(true !== 1);
