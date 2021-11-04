@@ -193,3 +193,54 @@ Variable declarations:
 // the else statement -- checking for two conditions
 
 // else if statement -- checking for more than two conditions
+
+// the switch statement -- checking for a single condition
+
+// let score = 10;
+
+// switch (score) {
+//   case 10:
+//     console.log("way to go, bro");
+// }
+
+// default statement -- checking for two conditions
+
+// let score = 11;
+
+// switch (score) {
+//   case 10:
+//     console.log("you gotti ths");
+//     break;
+//   default:
+//     console.log("yo no gotti this mang");
+// }
+
+// switch default statement -- checking for more than two conditions
+
+// let score = 8;
+// switch (score) {
+//   case 10:
+//     console.log("grade a");
+//     break;
+//   case 9:
+//     console.log("grade b");
+//     break;
+//   case 8:
+//     console.log("grade c");
+//     break;
+//   case 7:
+//     console.log("grade d");
+//     break;
+//   default:
+//     console.log("grade f");
+// }
+
+// the ternary operator -- checks for ONLY two conditions
+
+// let score = 11;
+
+// score === 10
+//   ? console.log("you got an A")
+//   : console.log("you got something other than an A");
+
+// the logical AND operator
