@@ -26,25 +26,25 @@ newYear.textContent = newYearCode;
 // 3 functions
 
 // array
-let numbers = [1, 2, 3];
-console.log(numbers);
+// let numbers = [1, 2, 3];
+// console.log(numbers);
 
 // objects
-const person = {
-  name: "Phil", // key-value pair or properties
-  age: 47,
-};
-console.log(person);
+// const person = {
+//   name: "Phil", // key-value pair or properties
+//   age: 47,
+// };
+// console.log(person);
 
 // function
 
-function addMe() {
-  return (12 + 5) * 19;
-}
+// function addMe() {
+//   return (12 + 5) * 19;
+// }
 
-addMe();
+// addMe();
 
-console.log(addMe());
+// console.log(addMe());
 
 /* 
 Variable declarations:
@@ -59,8 +59,40 @@ Variable declarations:
 
 // the naming conventions for these: 1) they must make sense 2) they must be understandable 3) they must be camelCase
 
-let age = 47;
-console.log(age);
+// let age = 47;
+// console.log(age);
 
-let firstName = "Phil";
-console.log(firstName);
+// let firstName = "Phil";
+// console.log(firstName);
+
+// string methods
+
+// new String()
+
+// let pasta = new String("penne");
+// console.log(pasta);
+
+// string Literal
+
+// let movie = "interstellar";
+// console.log(movie);
+
+// console.log(movie.toUpperCase());
+
+let movieTwo = "INTERSTELLAR";
+console.log(movieTwo.toLowerCase());
+
+// concatenation
+
+let firstName = "Christopher";
+let lastName = "Nolan";
+
+// console.log(firstName + lastName);
+// console.log(firstName + " " + lastName);
+
+console.log(`${firstName} ${lastName}`);
+
+// length property
+
+console.log(firstName.length);
+console.log(lastName.length);
