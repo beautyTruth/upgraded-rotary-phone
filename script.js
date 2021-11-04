@@ -79,20 +79,54 @@ Variable declarations:
 
 // console.log(movie.toUpperCase());
 
-let movieTwo = "INTERSTELLAR";
-console.log(movieTwo.toLowerCase());
+// let movieTwo = "INTERSTELLAR";
+// console.log(movieTwo.toLowerCase());
 
 // concatenation
 
-let firstName = "Christopher";
-let lastName = "Nolan";
+// let firstName = "Christopher";
+// let lastName = "Nolan";
 
 // console.log(firstName + lastName);
 // console.log(firstName + " " + lastName);
 
-console.log(`${firstName} ${lastName}`);
+// console.log(`${firstName} ${lastName}`);
 
 // length property
 
-console.log(firstName.length);
-console.log(lastName.length);
+// console.log(firstName.length);
+// console.log(lastName.length);
+
+// finding the index
+
+let kitty = "Kitty the kittycat";
+
+// console.log(kitty);
+// console.log(kitty[8]);
+// console.log(kitty[4]);
+// console.log(kitty[12]);
+// console.log(kitty[kitty.length - 1]);
+
+// trim method
+let rock = "       lava     ";
+console.log(rock.trim());
+
+// indexOf method
+console.log(kitty.indexOf("t"));
+
+// charAt method
+console.log(kitty.charAt("4"));
+
+// slice method
+console.log(kitty.slice(4));
+console.log(kitty.slice(4, 10));
+
+// split method
+console.log(kitty.split(" "));
+
+// includes method
+console.log(kitty.includes("@"));
+console.log(kitty.includes("i"));
+
+// replace method
+console.log(kitty.replace("the", "boop"));
