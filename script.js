@@ -323,8 +323,8 @@ Variable declarations:
 // movies.push("Alien");
 // console.log(movies);
 
-let numbers = [1, 2, 3, 4, 54, 115, 789, 324];
-console.log(numbers);
+// let numbers = [1, 2, 3, 4, 54, 115, 789, 324];
+// console.log(numbers);
 
 // slice method --- creates an array from the starting index to the ending index (but doesn't change the original array)
 
@@ -349,6 +349,69 @@ console.log(numbers);
 // console.log(numbers); // this array is now changed
 
 // adding
-let num2 = numbers.splice(2, 0, 222, "The Dark Knight");
-console.log(num2);
-console.log(numbers); // this array is now changed
+// let num2 = numbers.splice(2, 0, 222, "The Dark Knight");
+// console.log(num2);
+// console.log(numbers); // this array is now changed
+
+// the includes method -- checks to see if the array includes a specified item
+
+const moods1 = ["happy", "mellow", "sad", "stoked", "positive"];
+// console.log(moods1.includes("mellow"));
+// console.log(moods1.includes("pissed"));
+
+// the concat method -- merges two or more arrays together
+const moods2 = ["chillin", "miffed", "bummed"];
+console.log(moods1.concat(moods2));
+console.log(moods2.concat(moods1));
+
+// however, you cannot change or redeclare
+// ex -- moods2 = [1,2,3,4,5] would create an error
+
+// reverse method
+// console.log(moods2.reverse());
+
+// the join method
+// console.log(moods2.join());
+// console.log(moods2.join(""));
+// console.log(moods2.join(" "));
+// console.log(moods2.join("-"));
+
+// -------all about nesting in arrays - can result in an array of array------
+// const favs = [
+//   [
+//     "A Clockwork Orange",
+//     "Barry Lyndon",
+//     "Full Metal Jacket",
+//     "Lolita",
+//     "2001: A Space Odyssey",
+//   ],
+//   [
+//     "Boogie Nights",
+//     "There Will Be Blood",
+//     "The Master",
+//     "Magnolia",
+//     "Inherent Vice",
+//   ],
+//   [
+//     "The Dark Knight",
+//     "Interstellar",
+//     "Tenet",
+//     "Inception",
+//     "The Dark Knight Rises",
+//   ],
+//   [
+//     "Christopher Nolan",
+//     "Oliver Stone",
+//     "Stanley Kubrick",
+//     "Paul Thomas Anderson",
+//   ],
+//   ["Thomas Hardy", "Amy Adams", "Charlize Theron", "Daniel Day Lewis"],
+// ];
+
+// console.log(favs);
+// console.log(favs[1]);
+// console.log(favs[4]);
+// console.log(favs[4][3]);
+// console.log(
+//   `${favs[4][2]} is the archetype of my ideal woman and likely most guys' archetypal ideal woman.`
+// );
