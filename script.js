@@ -454,22 +454,73 @@ object literal -- object -- they store key-value pairs otherwise known as proper
 modifying and updating objects -- change the object data
 */
 
-const movieRatings = {
-  Interstellar: 9.9,
-  "The Dark Knight": 9.3,
-  "There Will Be Blood": 9.1,
-  "Full Metal Jacket": 8.9,
-  Platoon: 9.2,
-};
+// const movieRatings = {
+//   Interstellar: 9.9,
+//   "The Dark Knight": 9.3,
+//   "There Will Be Blood": 9.1,
+//   "Full Metal Jacket": 8.9,
+//   Platoon: 9.2,
+// };
 
-movieRatings["Platoon"] = 9.8;
-movieRatings["Full Metal Jacket"] = 9.5;
+// movieRatings["Platoon"] = 9.8;
+// movieRatings["Full Metal Jacket"] = 9.5;
 
-console.log(movieRatings);
+// console.log(movieRatings);
 
 // updating object data --- creating more key-value pairs
 
-movieRatings["Blade Runner"] = 9.9;
-movieRatings["Apocalypse Now"] = 9.5;
+// movieRatings["Blade Runner"] = 9.9;
+// movieRatings["Apocalypse Now"] = 9.5;
 
-console.log(movieRatings);
+// console.log(movieRatings);
+
+/* 
+nesting objects within objects ------------
+*/
+
+// const user = {
+//   stinkyBritches69: {
+//     name: "Willie",
+//     job: "quarterback",
+//   },
+//   payGrade: "Alpha",
+// };
+
+// console.log(user);
+// console.log(user["stinkyBritches69"]);
+// console.log(user["stinkyBritches69"].job);
+// console.log(user["stinkyBritches69"]["name"]);
+
+/* 
+nesting arrays within objects ------------
+*/
+
+// const user = {
+//   thunderKiss69: {
+//     name: "Shabba",
+//     job: "vocalist",
+//   },
+//   payGrade: "Alpa",
+//   hobbies: ["rapping", "dat booty", "ganga", "existentialist thought"],
+// };
+
+// console.log(user);
+// console.log(user["hobbies"]);
+// console.log(user["hobbies"][3]);
+
+/* 
+nesting objects within arrays ------------
+*/
+const user2 = [
+  {
+    name: "Tony Montana",
+    job: "cocaine importer",
+  },
+  "energetic self starter",
+  ["organizes big cocaine buys", "hates Colombians", "likes bubblebaths"],
+];
+
+console.log(user2);
+console.log(user2[0]);
+console.log(user2[0]["job"]);
+console.log(`${user2[0]["name"]} is an ${user2[1]} who really ${user2[2][2]}.`);
