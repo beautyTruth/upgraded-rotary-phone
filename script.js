@@ -511,16 +511,70 @@ nesting arrays within objects ------------
 /* 
 nesting objects within arrays ------------
 */
-const user2 = [
-  {
-    name: "Tony Montana",
-    job: "cocaine importer",
-  },
-  "energetic self starter",
-  ["organizes big cocaine buys", "hates Colombians", "likes bubblebaths"],
-];
+// const user2 = [
+//   {
+//     name: "Tony Montana",
+//     job: "cocaine importer",
+//   },
+//   "energetic self starter",
+//   ["organizes big cocaine buys", "hates Colombians", "likes bubblebaths"],
+// ];
 
-console.log(user2);
-console.log(user2[0]);
-console.log(user2[0]["job"]);
-console.log(`${user2[0]["name"]} is an ${user2[1]} who really ${user2[2][2]}.`);
+// console.log(user2);
+// console.log(user2[0]);
+// console.log(user2[0]["job"]);
+// console.log(`${user2[0]["name"]} is an ${user2[1]} who really ${user2[2][2]}.`);
+
+/* 
+FOR LOOPS!!!! ------------
+
+1. a variable is defined (the starting point of the loop)
+2. the ending point is defined
+3. the increment is defined
+
+the syntax:
+
+for(initialExpression; condition; incrementExpression) {
+  the code we want to run for each loop
+}
+
+for() {
+
+}
+
+*/
+
+// example 1
+
+// for (a = 1; a <= 5; a++) {
+//   // console.log("I am a for loop!");
+//   console.log("I am a for loop!", a);
+// }
+
+// example 2 ---- even numbers from 0 to 19
+
+// for (b = 0; b <= 19; b += 2) {
+//   console.log(b, "How are you doing?");
+// }
+
+// example 3 ---- odd numbers from 0 to 19
+
+// for (b = 1; b < 19; b += 2) {
+//   // note the starting value
+//   console.log(b, "How are you doing?");
+// }
+
+// example 4 ---- every third number from 0 to 19
+
+// for (i = 2; i <= 19; i += 3) {
+//   // note the starting value
+//   console.log(i, "How are you doing?");
+// }
+
+// example 5 ---- infinite loops
+
+// the below may crash your computer; the condition is always true, so it will run until infinity
+
+// for (c=10; c>=0; c++) {
+//   console.log(c)
+// }
