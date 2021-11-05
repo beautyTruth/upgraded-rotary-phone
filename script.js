@@ -436,16 +436,40 @@ object literal -- object -- they store key-value pairs otherwise known as proper
 
 // accessing the object's data -- method 2 - array brackets
 
-const person = {
-  name: "Kevin",
-  age: 32,
-  "Full Address": "Brooklyn, NY",
-  job: "point forward",
-  1985: "DoB",
+// const person = {
+//   name: "Kevin",
+//   age: 32,
+//   "Full Address": "Brooklyn, NY",
+//   job: "point forward",
+//   1985: "DoB",
+// };
+
+// console.log(person);
+// console.log(person["Full Address"]);
+// // console.log(person[job]); // error
+// console.log(person["job"]);
+// console.log(person[1985]); // can use the string or the number because JavaScript coerces the type
+
+/*
+modifying and updating objects -- change the object data
+*/
+
+const movieRatings = {
+  Interstellar: 9.9,
+  "The Dark Knight": 9.3,
+  "There Will Be Blood": 9.1,
+  "Full Metal Jacket": 8.9,
+  Platoon: 9.2,
 };
 
-console.log(person);
-console.log(person["Full Address"]);
-// console.log(person[job]); // error
-console.log(person["job"]);
-console.log(person[1985]); // can use the string or the number because JavaScript coerces the type
+movieRatings["Platoon"] = 9.8;
+movieRatings["Full Metal Jacket"] = 9.5;
+
+console.log(movieRatings);
+
+// updating object data --- creating more key-value pairs
+
+movieRatings["Blade Runner"] = 9.9;
+movieRatings["Apocalypse Now"] = 9.5;
+
+console.log(movieRatings);
