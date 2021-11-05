@@ -578,3 +578,53 @@ for() {
 // for (c=10; c>=0; c++) {
 //   console.log(c)
 // }
+
+/* 
+LOOPING THROUGH ARRAYS!!!! ------------
+*/
+
+// const alienFranchise = [
+//   "alien",
+//   "aliens",
+//   "alien3",
+//   "alien resurrection",
+//   "prometheus",
+//   "alien covenant",
+// ];
+
+// for (e = 0; e < alienFranchise.length; e++) {
+//   // console.log(e);
+//   console.log(e, alienFranchise[e]);
+// }
+
+/* 
+LOOPING THROUGH objects nested within ARRAYS!!!! ------------
+*/
+
+// const favBooks = [
+//   {
+//     bookTitle: "Ulysses",
+//     author: "James Joyce",
+//   },
+//   {
+//     bookTitle: "Gravity's Rainbow",
+//     author: "Thomas Pynchon",
+//   },
+//   {
+//     bookTitle: "Syntactic Structures",
+//     author: "Noam Chomsky",
+//   },
+// ];
+
+// console.log(favBooks);
+
+// for (i = 0; i < favBooks.length; i++) {
+// console.log(favBooks);
+// console.log(i, favBooks[i]);
+// console.log(favBooks[i]["author"]);
+// console.log(favBooks[2]["author"]); // prints Noam Chomsky three times
+// }
+
+/* 
+WHILE LOOPS!!!! ------------
+*/
