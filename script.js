@@ -355,14 +355,14 @@ Variable declarations:
 
 // the includes method -- checks to see if the array includes a specified item
 
-const moods1 = ["happy", "mellow", "sad", "stoked", "positive"];
+// const moods1 = ["happy", "mellow", "sad", "stoked", "positive"];
 // console.log(moods1.includes("mellow"));
 // console.log(moods1.includes("pissed"));
 
 // the concat method -- merges two or more arrays together
-const moods2 = ["chillin", "miffed", "bummed"];
-console.log(moods1.concat(moods2));
-console.log(moods2.concat(moods1));
+// const moods2 = ["chillin", "miffed", "bummed"];
+// console.log(moods1.concat(moods2));
+// console.log(moods2.concat(moods1));
 
 // however, you cannot change or redeclare
 // ex -- moods2 = [1,2,3,4,5] would create an error
@@ -415,3 +415,37 @@ console.log(moods2.concat(moods1));
 // console.log(
 //   `${favs[4][2]} is the archetype of my ideal woman and likely most guys' archetypal ideal woman.`
 // );
+
+/*
+object literal -- object -- they store key-value pairs otherwise known as properties
+*/
+
+// const address = {
+//   city: "Agios Onoufrios",
+//   country: "Greece",
+// };
+
+// console.log(address);
+
+// accessing the object's data -- method 1
+
+// console.log(address.city, "is absolutely gorgeous");
+// console.log(
+//   `${address.country} is my favorite place in the world.  Specifically the Aegean Sea.`
+//   );
+
+// accessing the object's data -- method 2 - array brackets
+
+const person = {
+  name: "Kevin",
+  age: 32,
+  "Full Address": "Brooklyn, NY",
+  job: "point forward",
+  1985: "DoB",
+};
+
+console.log(person);
+console.log(person["Full Address"]);
+// console.log(person[job]); // error
+console.log(person["job"]);
+console.log(person[1985]); // can use the string or the number because JavaScript coerces the type
