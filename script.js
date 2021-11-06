@@ -886,14 +886,26 @@ let avgJoeyScore = function (score, joeyScore) {
 
 // => functions that are accepting other functions as returned values -- these are known as FACTORY FUNCTIONS (lexical scope)
 
-function sum(x) {
-  return function (y) {
-    return x + y;
-  };
-}
+// function sum(x) {
+//   return function (y) {
+//     return x + y;
+//   };
+// }
 
-let num1 = sum(5);
-console.log(num1(7));
+// let num1 = sum(5);
+// console.log(num1(7));
+
+// ------- CALLBACK FUNCTIONS
+
+// example 1
+
+// setTimeout(function () {
+//   console.log(9 - 3221);
+// }, 7000);
+
+// example 2
+
+// recall his explanation of the dynamic revealing of text in the lesson
 
 /* 
 ========= function expressions, part 3 of 4
