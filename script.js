@@ -856,20 +856,45 @@ let avgJoeyScore = function (score, joeyScore) {
 
 // functions as object properties
 
-const scores = {
-  mikeScore: avgMikeScore,
-  joeyScore: avgJoeyScore,
-};
+// const scores = {
+//   mikeScore: avgMikeScore,
+//   joeyScore: avgJoeyScore,
+// };
 
-console.log(scores.mikeScore(100, 20));
-console.log(scores.joeyScore(329, 33));
+// console.log(scores.mikeScore(100, 20));
+// console.log(scores.joeyScore(329, 33));
 
 // when functions are called within objects, they are converted into methods
 // so, the above console logs are technically method calls
 
 /* 
-========= function expressions, part 2 of 4
+========= HIGHER ORDER FUNCTIONS -- functions that are accepting other functions as arguments, or functions that are accepting other functions as return values
 */
+
+// => functions that are accepting other functions as arguments
+
+// function repeat(x) {
+//   x();
+//   x();
+// }
+
+// function num() {
+//   console.log(2 + 5);
+// }
+
+// repeat(num); // -- the num() function is actually a callback function
+
+// => functions that are accepting other functions as returned values -- these are known as FACTORY FUNCTIONS (lexical scope)
+
+function sum(x) {
+  return function (y) {
+    return x + y;
+  };
+}
+
+let num1 = sum(5);
+console.log(num1(7));
+
 /* 
 ========= function expressions, part 3 of 4
 */
