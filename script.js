@@ -809,3 +809,48 @@ var
 /*
 variable BLOCK scope ------ review as necessary, basically, whenever it is in the block -- {} -- it is available there. The block, global, and function scope -- you understand this, Phil, don't overthink it like minimal pairs.
 */
+
+/* 
+========= function expressions, part 1 of 4 (function EXPRESSIONS are when the result is stored in a variable -- as opposed to function statement DECLARATIONS which 
+  function expressions are also nameless
+  )
+*/
+
+// simple function expressions
+
+// let calcNums = function (z, w) {
+//   return (z + w) / (z - w);
+// };
+
+// console.log(calcNums(88, 89));
+// console.log(calcNums(122, 89));
+// console.log(calcNums(122, 89));
+
+// function expressions in arrays and objects
+
+function avgMikeScore(score, mikeScore) {
+  return (mikeScore + 5) / score;
+}
+
+let avgJoeyScore = function (score, joeyScore) {
+  return joeyScore / score;
+};
+
+const scores = [avgMikeScore, avgJoeyScore];
+
+// console.log(scores);
+
+for (let i = 0; i < scores.length; i++) {
+  let result = scores[i](100, 20);
+  console.log(result);
+}
+
+/* 
+========= function expressions, part 2 of 4
+*/
+/* 
+========= function expressions, part 3 of 4
+*/
+/* 
+========= function expressions, part 4 of 4
+*/
