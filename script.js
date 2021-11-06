@@ -746,3 +746,51 @@ when the function is called, arguments are passed -- in the place of the appropr
 // moviePerf("Tommy Boy", 300);
 // moviePerf("Ernest Goes To Camp", 0.5);
 // moviePerf("Boogie Nights", 998);
+
+/* 
+The return keyword!!!! ------------ "wrap it up; we are done"
+*/
+
+// example 1
+
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// console.log(sum(44, 3));
+
+// let sumNums = sum(234, 465);
+
+// console.log(sumNums);
+
+// example 2
+
+// function checkScore(currentScore, passingScore) {
+//   if (currentScore >= passingScore) {
+//     return "Congratulations! You passed!";
+//   } else {
+//     return "Aww, you failed. Better luck next time!";
+//   }
+// }
+
+// let testResult = checkScore(99, 69);
+// let testResult = checkScore(53, 69);
+// let testResult = checkScore(19, 45);
+// let testResult = checkScore(32 , 32);
+
+// console.log(testResult);
+
+//below omits the unnecessary else statement and functions the exact same way in a more dry method
+// note that a ternary operator can also be used
+
+// function checkScore(currentScore, passingScore) {
+//   if (currentScore >= passingScore) {
+//     return "Congratulations! You passed!";
+//   }
+//   return "Aww, you failed. Better luck next time!";
+// }
+
+// let testResult = checkScore(99, 69);
+// let testResult = checkScore(53, 69);
+// let testResult = checkScore(19, 45);
+// let testResult = checkScore(32 , 32);
