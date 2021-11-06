@@ -794,3 +794,18 @@ The return keyword!!!! ------------ "wrap it up; we are done"
 // let testResult = checkScore(53, 69);
 // let testResult = checkScore(19, 45);
 // let testResult = checkScore(32 , 32);
+
+/* 
+Variable function scope!!!! ------------ 
+
+let 
+const
+var
+
+*/
+
+// review the rules for let, const, and var scopes
+
+/*
+variable BLOCK scope ------ review as necessary, basically, whenever it is in the block -- {} -- it is available there. The block, global, and function scope -- you understand this, Phil, don't overthink it like minimal pairs.
+*/
