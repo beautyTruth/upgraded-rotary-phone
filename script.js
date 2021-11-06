@@ -710,10 +710,39 @@ when the function is called, arguments are passed -- in the place of the appropr
 // color("#ffd5ed");
 
 // example 4
-function calcNums(x) {
-  console.log(((x + 5) * x) / (x + 10));
-}
+// function calcNums(x) {
+//   console.log(((x + 5) * x) / (x + 10));
+// }
 
-calcNums(33);
-calcNums(200);
-calcNums(22);
+// calcNums(33);
+// calcNums(200);
+// calcNums(22);
+
+// example 5
+
+// function movieRating(rating) {
+//   console.log(`This movie's rating is ${rating}`);
+// }
+
+// movieRating(9.5); // 9.5 -- the argument -- now goes into the awaiting paramater "rating"
+
+// example 6
+
+// function calcNums(x, y) {
+//   console.log(x + y);
+// }
+
+// calcNums(9, 8);
+// calcNums(79, 89);
+
+// example 7
+
+// function moviePerf(movieName, boxOffice) {
+//   console.log(
+//     `The film ${movieName} earned $${boxOffice} million at the box office this weekend.`
+//   );
+// }
+
+// moviePerf("Tommy Boy", 300);
+// moviePerf("Ernest Goes To Camp", 0.5);
+// moviePerf("Boogie Nights", 998);
