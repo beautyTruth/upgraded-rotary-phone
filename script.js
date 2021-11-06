@@ -836,14 +836,36 @@ let avgJoeyScore = function (score, joeyScore) {
   return joeyScore / score;
 };
 
-const scores = [avgMikeScore, avgJoeyScore];
+// const scores = [avgMikeScore, avgJoeyScore];
 
 // console.log(scores);
 
-for (let i = 0; i < scores.length; i++) {
-  let result = scores[i](100, 20);
-  console.log(result);
-}
+// with the FOR loop
+
+// for (let i = 0; i < scores.length; i++) {
+//   let result = scores[i](100, 20);
+//   console.log(result);
+// }
+
+// the FOR OF loop (it iterates the arguments once for each item in the loop / you can name the iterator anything, obviously)
+
+// for (let boobies of scores) {
+//   let result = boobies(100, 20);
+//   console.log(result);
+// }
+
+// functions as object properties
+
+const scores = {
+  mikeScore: avgMikeScore,
+  joeyScore: avgJoeyScore,
+};
+
+console.log(scores.mikeScore(100, 20));
+console.log(scores.joeyScore(329, 33));
+
+// when functions are called within objects, they are converted into methods
+// so, the above console logs are technically method calls
 
 /* 
 ========= function expressions, part 2 of 4
