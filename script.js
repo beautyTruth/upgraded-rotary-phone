@@ -628,3 +628,92 @@ LOOPING THROUGH objects nested within ARRAYS!!!! ------------
 /* 
 WHILE LOOPS!!!! ------------
 */
+
+/* 
+1. declare a variable -- above and outside of the loop
+2. while(condition) {run this code; variable++}
+
+let v = 1;
+while() {
+
+}
+
+*/
+
+// example 1
+// let k = 1;
+// while (k <= 10) {
+//   console.log(k);
+//   k++;
+// }
+
+// iterate through an array using a while loop
+
+// const colors = [
+//   "peachpuff",
+//   "papayawhip",
+//   "plum",
+//   "gainsboro",
+//   "cornflowerblue",
+// ];
+
+// let i = 0;
+// while (i < colors.length) {
+//   // console.log(colors);
+//   console.log(i, colors[i]);
+//   i++;
+// }
+
+/* 
+Function DECLARATIONS!!!! ------------ AKA function statements
+
+function myFunc(params) {
+  
+}
+
+when the function is called, arguments are passed -- in the place of the appropriate paramaters
+*/
+
+// function myFunc() {
+//   console.log("I am Iron Man");
+// }
+
+// myFunc();
+
+// example 1
+
+// function sumNums() {
+//   console.log(5 + 6);
+// }
+
+// sumNums();
+
+// example 2
+
+// function message() {
+//   let papayawhip = "#ffefd5";
+//   console.log(
+//     `The hexidecimal value for the papayawhip color is ${papayawhip}`
+//   );
+// }
+
+// message();
+
+// example 3
+
+// function color(hex) {
+//   console.log(hex);
+// }
+
+// color("#ffefd5");
+// color("#ffeeff");
+// color("#ffd5ed");
+
+// example 4
+function calcNums(x) {
+  console.log(((x + 5) * x) / (x + 10));
+}
+
+calcNums(33);
+calcNums(200);
+calcNums(22);
