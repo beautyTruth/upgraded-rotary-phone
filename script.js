@@ -906,10 +906,14 @@ let avgJoeyScore = function (score, joeyScore) {
 // example 2
 
 // recall his explanation of the dynamic revealing of text in the lesson
-
-/* 
-========= function expressions, part 3 of 4
-*/
 /* 
 ========= function expressions, part 4 of 4
 */
+
+/* 
+========= The document object model -- allsow us to link the JS object to the HTML document
+*/
+
+// ++++++++++ selecting methods -- getting html methods by their class
+
+//
