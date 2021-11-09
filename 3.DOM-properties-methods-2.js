@@ -44,3 +44,5 @@ const imageProps = getComputedStyle(image);
 image.style.width = "800px";
 image.style.height = "600px";
 console.log(imageProps.height);
+
+// be careful when using inline styles in the DOM and anywhere else because they have the highest level of priority
